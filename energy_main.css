@@ -1,0 +1,80 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    background-image: url("images/white.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+p{
+    color: rgb(102, 99, 99);
+    line-height: 2;
+    font-weight: 100;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.content h1{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.myown{
+    margin-top: 100px;
+    
+}
+
+.myown h2{
+    font-size: 2.5rem;
+}
+
+.myown p{
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
+#myfoo{
+    background-image: linear-gradient(rgb(112, 111, 111), rgb(122, 122, 122));
+    padding: 10px;
+}
+
+#myfoo h4{
+    font-weight: 100;
+}
+
+#s2{
+    background-image: linear-gradient(rgba(141, 178, 196, 0.719), rgba(122, 130, 134, 0.692));
+    padding: 20px;
+}
+
+#s2 img{
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+@media(max-width:610px){
+    #mytop h1{
+        font-size: 3rem;
+    }
+    #mytop p{
+        font-size: 1.125rem;
+    }
+    #myfoo h4{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:1290px){
+    .myown h2{
+        font-size: 2rem;
+
+    }
+    .myown p{
+        font-size: 1rem;
+    }
+}
